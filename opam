@@ -1,0 +1,12 @@
+opam-version: "2.0"
+name: "essai"
+version: "0.0.0"
+maintainer: "pierregobin <pierregobin@free.Fr>"
+authors: "pierregobin <pierregobin@free.Fr>"
+depends: ["ocaml" "ocamlfind"]
+build: [
+  ["dune" "build" "essai.exe"]
+  [make]
+]
+install: [make "install"]
+dev-repo: "git+https://"
